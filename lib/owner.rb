@@ -61,8 +61,6 @@ class Owner
     "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
   end
 
-
-
   def sell_pets
     @pets.each do |type, pets|
       pets.map {|pet| pet.mood= "nervous"}
